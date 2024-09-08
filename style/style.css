@@ -1,0 +1,134 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+button {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  button.active {
+    background-color: #337ab7;
+    color: white;
+  }
+
+  .luas h2{
+    background-color: #337ab7;
+    color: white;
+    width: 98.7%;
+    padding: 10px;
+  }
+
+  .luas img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  .luas input {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+  }
+  .buttons-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 10px; 
+    gap: 10px; 
+  }
+  
+  /* Gaya untuk tombol "Hitung" */
+  #hitungBtn {
+    background-color: #337ab7; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    width: 100px; 
+    text-align: center; 
+  }
+  
+  
+  #resetBtn {
+    background-color: #f0ad4e; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    width: 100px; 
+    text-align: center; 
+    align-self: flex-end; 
+  }
+  
+  
+  #hitungBtn:hover,
+  #resetBtn:hover {
+    opacity: 0.8; 
+  }
+
+  .keliling h2{
+    background-color: #337ab7;
+    color: white;
+    width: 98.7%;
+    padding: 10px;
+  }
+
+  .keliling img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  .keliling input {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+  }
+  #hitungKelilingBtn {
+    background-color: #337ab7; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    width: 100px; 
+    text-align: center; 
+  }
+  #resetKelilingBtn {
+    background-color: #f0ad4e; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    width: 100px; 
+    text-align: center; 
+    align-self: flex-end; 
+  }
+ 

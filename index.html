@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to Katik</h1>
+        <p align="center">Hai Sobat Selamat Datang Di Katik :|</p>
+        <p align="center">Sebuah Website Sederhana untuk Menghitung Luas Dan Keliling Segitiga</p>
+
+        <!--Untuk Button Pergantian luas dan keliling-->
+        <div class="container">
+            <div class="luas_segitiga">
+                <button id="luasBtn" class="active">Luas</button>
+            </div>
+              
+            <div class="keliling_segitiga">
+                <button id="kelilingBtn">Keliling</button>
+            </div>
+        </div>
+    </header>
+    <!--Main Content-->
+    <div class="content">
+        <!-- Section Luas -->
+        <div class="luas">
+            <h2>Luas Segitiga</h2>
+            <img src="https://kartikasariyuni.wordpress.com/wp-content/uploads/2016/04/891d6-segitiga.jpg" alt="Segitiga">
+            <p>Rumus Luas Segitiga yaitu :</p>
+            <p class="formula" align="center">L = 1/2 x a x t</p>
+            <p>Di mana:</p>
+            <p>L = Luas</p>
+            <p>a = Panjang Alas</p>
+            <p>t = Tinggi</p>
+            <hr>
+            <p align="center"><font face="arial" size="6">Hitung Luas Segitiga</font></p>
+            <input type="number" id="alas" placeholder="Masukkan alas">
+            <input type="number" id="tinggi" placeholder="Masukkan Tinggi">
+            <div id="hasilLuas"></div>
+            <div class="buttons-container">
+                <button id="hitungBtn">Hitung</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+
+        <!-- Section Keliling -->
+        <div class="keliling" style="display: none;">
+            <h2>Keliling Segitiga</h2>
+            <img src="https://kartikasariyuni.wordpress.com/wp-content/uploads/2016/04/891d6-segitiga.jpg" alt="Segitiga">
+            <p>Rumus Keliling Segitiga yaitu :</p>
+            <p class="formula" align="center">K = a + b + c</p>
+            <p>Di mana:</p>
+            <p>K = Keliling</p>
+            <p>a, b, c = Panjang sisi-sisi segitiga</p>
+            <hr>
+            <p align="center"><font face="arial" size="6">Hitung Keliling Segitiga</font></p>
+            <input type="number" id="sisiA" placeholder="Masukkan sisi a">
+            <input type="number" id="sisiB" placeholder="Masukkan sisi b">
+            <input type="number" id="sisiC" placeholder="Masukkan sisi c">
+            <div id="hasilKeliling"></div>
+            <div class="buttons-container">
+                <button id="hitungKelilingBtn">Hitung</button>
+                <button id="resetKelilingBtn">Reset</button>
+            </div>
+        </div>
+    </div>
+
+<script src="script/main.js"></script>
 </body>
 </html>
